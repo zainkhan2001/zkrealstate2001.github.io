@@ -1,0 +1,251 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Old Standard TT', serif;
+}
+
+
+    /* variables */
+ :root{
+        --navbar-height:70px;
+    }
+
+#navbar::before{
+    content: "";
+    
+    position: absolute;
+    background-color: rgb(38, 29, 29);
+    z-index: -1;
+    margin: 0px;
+    width: 100%;
+    height: var(--navbar-height);
+    opacity: 0.9;
+    
+
+
+}
+#logo{
+    width: 20%;
+}
+#logo img{
+    width: 137px;
+    height: 70px;
+}
+li{
+    color: azure;
+    text-decoration: none;
+    list-style: none;
+    
+}
+ul li a{
+    display: block;
+    padding: 2px 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(254, 254, 254);
+    font-size: 1.1;
+}
+li a:hover{
+    color: rgb(94, 37, 37);
+    background-color: aliceblue;
+    border-radius: 30px;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+   
+   
+}
+#r img{
+    width: 100px;
+}
+#list{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* home section */
+#style-container{
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.718);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 100px;
+    height: 476px;
+   margin: 0px;
+  
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left:0px;
+   background: url('../photos/zain8.jpg') no-repeat center center/cover ;
+   width: 100%;
+   height:550px;
+   z-index: -11;
+   opacity: 0.8;
+   
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Arsenal', sans-serif;
+}
+.btn{
+    
+    width: 150px;
+    padding: 6px 20px;
+    margin: 6px 20px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: rgb(218, 19, 19);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(234, 146, 146);
+}
+.h-primary{
+
+    margin: 14px;
+   margin-top: 0px;
+  font-size: 3rem;
+  padding: 6px;
+  font-family: 'Old Standard TT', serif;
+  
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-size: 2.7rem;
+    font-family: 'Old Standard TT', serif;
+}
+#services{
+    display: flex;
+    margin: 12px;
+}
+#services .box{
+    border: 2px solid brown;
+    width: 30%;
+    margin: 24px;
+    padding: 4px 20px;
+    border-radius: 23px;
+    font-family: 'Arsenal', sans-serif;
+    background-color: white;
+    /* background-color: rgb(192, 187, 187); */
+}
+/* #services .box:hover{
+   width: 33%;
+   height: 300px;
+   width: 400px;
+      background-color: rgb(192, 187, 187);
+} */
+#services .box img{
+    height: 156px;
+    display: block;
+    margin: auto;
+}
+.style-container{
+  position: relative;
+  top: 0px;
+}
+/* client section */
+#clients-section{
+    height: 250px;
+   
+ 
+
+}
+#clients-section::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(216, 216, 229);
+    width: 100%;
+    height: 250px;
+    z-index:-1 ;
+    opacity: 0.6;
+
+}
+#clients{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+#clients img{
+    
+    height: 124px;
+ }
+ .client-item{
+    padding: 10px 12px;
+    margin: 10px 30px;
+ }
+ /* contact form */
+ #contact{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+ }
+ div input,textarea{
+    padding: 10px;
+    margin: 9px;
+    border-radius: 2px solid grey;
+    border-radius: 19px;
+    width: 100%;
+ }
+ section form{
+    width: 50%;
+ }
+ #contact h1{
+   padding-top: 30px;
+   margin-top: 0px;
+
+ }
+ #contact::before{
+    content:"";
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('../photos/contact.jpg')no-repeat center center/cover;
+    z-index: -3;
+    opacity: 0.6;
+ }
+ footer{
+    background-color: black;
+    color: azure;
+    padding: 9px;
+ }
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}

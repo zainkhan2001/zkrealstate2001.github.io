@@ -1,0 +1,95 @@
+/* NAVIGATION */
+#navbar{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+#list{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+#logo img{
+    width: 70px;
+    height: 30px;
+}
+ul li a{
+  font-size: 7px;
+}
+
+/* HOME */
+#home{
+ 
+    height:573px;
+  
+  
+}
+#home::before{
+    content: "";
+    position: absolute;
+  
+   height:654px;
+   
+   
+}
+#home p{
+    
+    font-size: 0.8rem;
+ 
+}
+.h-primary{
+
+    
+  font-size: 1.6rem;
+  
+  
+}
+/* SERVICES */
+#style-container{
+    height: 1400px;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#services .box{
+    border: 2px solid brown;
+    width: 70%;
+    margin: 34px;
+    padding: 4px 20px;
+    border-radius: 23px;
+    font-family: 'Arsenal', sans-serif;
+    background-color: white;
+    height: 27%;
+    /* background-color: rgb(192, 187, 187); */
+}
+/* CLIENTS */
+#clients{
+   flex-wrap: wrap;
+}
+#clients img{
+    width: 100px;
+    height: 100px;
+ }
+ 
+#clients-section{
+ flex-direction: column;
+ height: 1000px;
+}
+#clients-section::before{
+   
+    height: 1000px;
+  
+
+}
+/* CONTACTUS */
+/* FOOTER */
